@@ -1,0 +1,22 @@
+<LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextLocal"
+            android:hint="@string/local" android:layout_gravity="center"
+            android:textIsSelectable="false"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextVisitante"
+            android:hint="@string/visitante"android:layout_gravity="center"/>
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Comenzar"
+            android:id="@+id/button" android:layout_gravity="center" android:layout_weight="5"
+            android:onClick="comenzarPartido"/>
+</LinearLayout>
